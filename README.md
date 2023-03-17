@@ -42,4 +42,4 @@ In this course started off from the basics like CRUDS, and gone much further, wi
     - Run the main method [AlgafoodApiApplication](./src/main/java/com/algaworks/algafood/AlgafoodApiApplication.java)
 
 ### UML
-![alt Project's UML](./doc/ESR%20-%20Diagrama%20de%20classes.png)
+![alt Project's UML](https://github.com/romuloabbiati/images/blob/main/algafood/ESR%20-%20Diagrama%20de%20classes.png)
