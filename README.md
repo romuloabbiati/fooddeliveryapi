@@ -1,13 +1,12 @@
-<p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-</p>
+# Project Name: AlgaFood-api
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/romuloabbiati/dsmeta/blob/main/LICENSE) 
 
 # algafood-api
-REST API de delivery de comida desenvolvida com Spring Boot seguindo as melhores práticas do mercado durante o curso Especialista Spring REST (ESR) da Algaworks
+REST API of a food delivery like app named AlgaFood-api developed using Spring Boot using best market practices. This app was created when I took the course Spring REST Specialist taught by AlgaWorks.
 
-Neste curso partimos do básico como os CRUDS, e vamos muito além, com tópicos avançados como: Segurança (JWT Oauth2), upload de arquivos, envio de mails, caches, HATEOAS, documentação com Swagger, testes de integração, projeções com JPA, DDD, Domain Events, Oauth2 para segurança, migração e versionamento de base dados (Flyway), e muito mais!
+In this course started off from the basics like CRUDS, and gone much further, with advanced topics like: Security (JWT Oauth2), file uploads, sending emails, caches, HATEOAS, documentation with Swagger, integration tests, projections with JPA, DDD , Domain Events, Oauth2 for security, database migration and versioning (Flyway), and much more!
 
-## Desenvolvido com
+## Developed with
 * [Spring Framework](https://spring.io/projects/spring-framework)
 * [Spring Data](https://spring.io/projects/spring-data)
 * [Spring Security](https://spring.io/projects/spring-security)
@@ -19,28 +18,28 @@ Neste curso partimos do básico como os CRUDS, e vamos muito além, com tópicos
 * [Jasper Reports](https://community.jaspersoft.com/)
 * [AWS JDK S3](https://docs.aws.amazon.com/sdk-for-java/index.html)
 
-## Execução Local
-### Pré-requisitos
+## Running the app locally
+### Pre-requisites
 - ⚫ [Git](https://git-scm.com/)
 - 🐋 [Docker](https://docs.docker.com/engine/install/)
-- ☕ [Java 17 ou superior](https://openjdk.org/projects/jdk/)
-    - Sugestão: Utilizar SDKMan para instalar o java:
-        - [Instalação do SDKMan](https://sdkman.io/install)
-        - [Instalação do Java utilizando o SDKMan](https://sdkman.io/usage)
+- ☕ [Java 17 or superior](https://openjdk.org/projects/jdk/)
+    - Suggestion: make use of SDKMan to install Java:
+        - [SDKMan installation](https://sdkman.io/install)
+        - [Java installation using SDKMan](https://sdkman.io/usage)
 
-### Instruções
+### Instructions
 
-1. Clone o repositório
+1. Clone the repository
    ```sh
-   git clone https://github.com/marcosfalves/algafood-api.git
+   git clone https://github.com/romuloabbiati/fooddeliveryapi
    ```
-2. Abra em sua IDE preferida
-3. Inicie o ambiente de desenvolvimento com o docker
+2. Open it in your favourite IDE
+3. Run the development environment with Docker
    ```sh
    docker-compose up -d
    ```
-4. Execute a aplicação em sua IDE
-    - Iniciar o método main da classe [AlgafoodApiApplication](./src/main/java/com/algaworks/algafood/AlgafoodApiApplication.java)
+4. Run the app on your IDE
+    - Run the main method [AlgafoodApiApplication](./src/main/java/com/algaworks/algafood/AlgafoodApiApplication.java)
 
-### Diagrama de Classes
-![alt Diagrama de Classes do projeto](./doc/ESR%20-%20Diagrama%20de%20classes.png)
+### UML
+![alt Project's UML](./doc/ESR%20-%20Diagrama%20de%20classes.png)
